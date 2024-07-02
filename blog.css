@@ -76,8 +76,8 @@ a:hover {
 /* Mobile (max-width: 435px) */
 @media (max-width: 435px) {
     section {
-        margin: 1.5rem;
-        padding: 2rem;
+        margin: 1git rem;
+        padding: 1rem;
     }
     .about {
         position: relative;
@@ -85,7 +85,10 @@ a:hover {
         left: 0;
     }
     .about h1 {
-        font-size: 1.5em;
+        font-size: 1.2rem;
+    }
+    .about p{
+        font-size: 1rem;
     }
     section img {
         position: relative;
