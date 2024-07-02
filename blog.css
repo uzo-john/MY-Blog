@@ -1,0 +1,151 @@
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.6;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background:  #404660;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+section {
+    margin: 2rem 7rem;
+    position: relative;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.about{
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+}
+.about h1{
+    font-size: 2.5em;
+}
+.top-section{
+    height: 63vh;
+}
+
+section img {
+    display: block;
+    margin: 0.5rem 0;
+    position: absolute;
+    top: 1.5rem;
+    right: 5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background:  #404660;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #404660;
+}
+/* Media Queries for Responsiveness */
+
+/* Mobile (max-width: 435px) */
+@media (max-width: 435px) {
+    section {
+        margin: 1.5rem;
+        padding: 2rem;
+    }
+    .about {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .about h1 {
+        font-size: 1.5em;
+    }
+    section img {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .top-section {
+        height: auto;
+    }
+}
+
+/* Tablet (min-width: 436px) and (max-width: 768px) */
+@media (min-width: 436px) and (max-width: 768px) {
+    section {
+        margin: 2rem 3rem;
+    }
+    .about {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .about h1 {
+        font-size: 2em;
+    }
+    section img {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: auto;
+        margin: 1rem auto;
+    }
+    .top-section {
+        height: auto;
+    }
+}
+/* Desktop (min-width: 769px) and (max-width: 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    section {
+        margin: 2rem 5rem;
+    }
+    .about {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+    }
+    .about h1 {
+        font-size: 2.5em;
+    }
+    section img {
+        position: absolute;
+        top: 1.5rem;
+        right: 3rem;
+        width: auto;
+        height: auto;
+    }
+    .top-section {
+        height: 141vh;
+    }
+}
