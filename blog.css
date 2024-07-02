@@ -76,7 +76,7 @@ a:hover {
 /* Mobile (max-width: 435px) */
 @media (max-width: 435px) {
     section {
-        margin: 1git rem;
+        margin: 1rem;
         padding: 1rem;
     }
     .about {
